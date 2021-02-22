@@ -11,7 +11,9 @@ width:100%;
     line-height: 3;
     text-align: center;
 }
-
+.sidebar_list .activeLink {
+    text-decoration: underline;
+}
 a {
     width: 100%;
     display: block;
