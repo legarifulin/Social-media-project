@@ -3,15 +3,19 @@ import MainInformation from './MainInformation/MainInformation'
 import MyPosts from './MyPosts/Post/MyPosts'
 import MainImages from './MyPosts/Post/MainImages'
 
-const Main = () => {
+
+
+const Main = (props) => {
+
     return (
         <div className={c.main}>
             <MainImages />
             <MainInformation />
-            <MyPosts />
+            <MyPosts posts={props.state.posts} />
         </div>
 
     )
 }
 
 export default Main
+
