@@ -3,7 +3,8 @@
     background: rgb(41,41,41);
     background: linear-gradient(90deg, rgba(41,41,41,1) 0%, rgba(255,255,255,1) 0%, rgba(105,105,105,1) 0%, rgba(15,15,15,1) 100%);
     align-items: center;
-    border-bottom: black solid 1px;
+    border-bottom: white solid 3px;
+    background-image: url("/src/gallery/brickwall_@2X.png")
 }
 .logo img {
     width: 80px;

@@ -4,6 +4,8 @@ grid-area: nav;
 background: rgb(41,41,41);
 background: linear-gradient(90deg, rgba(41,41,41,1) 0%, rgba(255,255,255,1) 0%, rgba(105,105,105,1) 0%, rgba(15,15,15,1) 100%);
 width:100%;
+background-image: url("/src/gallery/brickwall_@2X.png");
+border-right: white solid 3px;
 }
 
 .navigation li {
@@ -17,7 +19,7 @@ width:100%;
 a {
     width: 100%;
     display: block;
-    color:white;
+    color:black;
     text-decoration: none;
 }
 

@@ -11,7 +11,10 @@ const Main = (props) => {
         <div className={c.main}>
             <MainImages />
             <MainInformation />
-            <MyPosts posts={props.state.posts} />
+            <MyPosts posts={props.profilePage.posts}
+                newPostText={props.profilePage.newPostText}
+                addPost={props.addPost}
+                updateNewPostText={props.updateNewPostText} />
         </div>
 
     )
